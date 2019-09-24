@@ -4,6 +4,7 @@ cd d/Projekty/VB-proste_projekty
 git pull
 git status
 git log
+git log --oneline
 git commit -m "Treœæ komentarza"
 git push -u origin master
 
