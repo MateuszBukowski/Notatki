@@ -1,0 +1,12 @@
+https://github.com/MateuszBukowski/VB-proste_projekty.git VB-proste_projekty/
+
+cd d/Projekty/VB-proste_projekty
+git pull
+git status
+git log
+git commit -m "Treœæ komentarza"
+git push -u origin master
+
+
+MateuszBukowski
+P...@
