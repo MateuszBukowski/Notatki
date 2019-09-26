@@ -1,0 +1,2 @@
+23 - klonowanie repozytorium z serwera
+24 - dodawanie nowego repo na GitHub

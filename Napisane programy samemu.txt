@@ -1,0 +1,5 @@
+1. Kalkulator
+2. Zegar z dat¹
+3. Stoper
+4. Odliczanie czasu
+5. Interwa³y
