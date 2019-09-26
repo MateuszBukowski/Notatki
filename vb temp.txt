@@ -1,0 +1,63 @@
+Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Dim intKtory As Integer = 1
+    Dim strZmienna As String
+    Dim strLabel As String = "Label1"
+
+    Dim NumUD As NumericUpDown
+    Dim lblInterwalX As Label
+
+    strZmienna = "NumericUpDown" & intKtory.ToString
+    NumUD = CType(Me.Controls.Item(strZmienna), NumericUpDown)
+    lblInterwalX = CType(Me.Controls.Item(strLabel), Label)
+
+    lblInterwalX.Text = CStr(NumUD.Value)
+End Sub
+        ====================================================
+
+For index As Integer = 1 To 4 Step 1
+    Dim strSekunda As String = "nudSekundyInterwal" & index.ToString
+    Dim strMinuta As String = "nudMinutyInterwal" & index.ToString
+    Dim strLabel As String = "lblInterwal" & index.ToString
+    Dim NumUDSekunda As NumericUpDown
+    Dim NumUDMinuta As NumericUpDown
+    Dim lblInterwalX As Label
+
+    NumUDSekunda = CType(Me.Controls.Item(strSekunda), NumericUpDown)
+    NumUDMinuta = CType(Me.Controls.Item(strMinuta), NumericUpDown)
+    lblInterwalX = CType(Me.Controls.Item(strLabel), Label)
+
+    intUstawionaInterwalSekunda = CInt(NumUDSekunda.Value)
+    intUstawionaInterwalMinuta = CInt(NumUDMinuta.Value)
+
+    '4) Ustaw lblInterwal 1 do 4
+    lblInterwalX.Text = CStr("0" & intUstawionaInterwalMinuta & ":" & "0" & intUstawionaInterwalSekunda)
+
+Next index
+
+
+========================
+
+Dim intInterwalySekundyMinuty(3,1) As Integer
+
+Nazwa		Interwa³    Minuty	Sekundy
+pierwszy	0		0	1
+drugi		1		0	1
+trzeci		2		0	1
+czwarty		3		0	1
+
+=========================
+Private intZeraInterwalySekundyMinuty(3, 1) As String
+Nazwa		Interwa³    Minuty	Sekundy
+pierwszy	0		0	1
+drugi		1		0	1
+trzeci		2		0	1
+czwarty		3		0	1
+
+
+Dim ct As Control
+        Dim st As String = "lblbox53"
+        For Each ct In Me.Controls
+            If ct.Name = st Then
+                ct.BackColor = Color.Red
+            End If
+        Next
