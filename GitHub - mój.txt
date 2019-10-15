@@ -8,3 +8,6 @@ Pr0gr@m1$t@
 
 https://github.com/MateuszBukowski/VB-proste_projekty.git
 https://github.com/MateuszBukowski/Notatki.git
+https://github.com/MateuszBukowski/JAVA-kurs.git
+
+git clone https://github.com/MateuszBukowski/JAVA-kurs.git JAVA-kurs
