@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MateuszBukowski
 Idiota13
 
@@ -8,3 +9,18 @@ Pr0gr@m1$t@
 
 https://github.com/MateuszBukowski/VB-proste_projekty.git
 https://github.com/MateuszBukowski/Notatki.git
+=======
+MateuszBukowski
+Idiota13
+
+mateuszbukowski13@gmail.com
+
+Pr0gr@m1$t@
+
+
+https://github.com/MateuszBukowski/VB-proste_projekty.git
+https://github.com/MateuszBukowski/Notatki.git
+https://github.com/MateuszBukowski/JAVA-kurs.git
+
+git clone https://github.com/MateuszBukowski/JAVA-kurs.git JAVA-kurs
+>>>>>>> 6c3946db416387daea083cd9cba4dec3f938516e
